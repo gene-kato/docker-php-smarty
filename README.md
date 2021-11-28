@@ -17,11 +17,11 @@ docker-compose version 1.22.0
 docker-compose up -d --build
 ```
 
-`localhost:8080` にアクセスし
-`app/code/index.php` が表示されることを確認
-`app/code/templates/index.index.tpl' のテンプレートの内容が表示されること確認
-`app/code/configs/develop.conf' で設定した変数が表示されること確認
-
+`localhost:8080` にアクセスし 
+- `app/code/index.php` が表示されることを確認 
+- `app/code/templates/index.index.tpl' のテンプレートの内容が表示されること確認 
+- `app/code/configs/develop.conf' で設定した変数が表示されること確認
+ 
 ## 終了
 ```
 docker-compose down
