@@ -14,3 +14,4 @@ services:
         dockerfile: ./app/Dockerfile
       volumes:
         - ./app/code:/var/www/html
+        - /var/www/html/vendor
